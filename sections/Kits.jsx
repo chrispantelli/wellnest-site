@@ -20,7 +20,7 @@ export default function Kits() {
                     <div>
                         <img src="products/BoxMock_Intolerance & Allergies.jpg" className="rounded-2xl" />
                         <h6 className="heading-6 text-dark-blue pt-4">Premium Intolerance Test</h6>
-                        <p className="paragraph-large-normal text-primary-blue">Health</p>
+                        <p className="paragraph-large-normal text-primary-blue">Gut Health</p>
                     </div>
                     <div>
                         <img src="products/BoxMock_Essential Vitamins Test.jpg" className="rounded-2xl" />
@@ -30,12 +30,12 @@ export default function Kits() {
                     <div>
                         <img src="products/BoxMock_Male Hormone Test.jpg" className="rounded-2xl" />
                         <h6 className="heading-6 text-dark-blue pt-4">Male Hormone Test</h6>
-                        <p className="paragraph-large-normal text-primary-blue">Gut Health</p>
+                        <p className="paragraph-large-normal text-primary-blue">Mens Health</p>
                     </div>
                     <div>
                         <img src="products/BoxMock_Female Hormone Test.jpg" className="rounded-2xl" />
                         <h6 className="heading-6 text-dark-blue pt-4">Female Hormone Test</h6>
-                        <p className="paragraph-large-normal text-primary-blue">Womens</p>
+                        <p className="paragraph-large-normal text-primary-blue">Womens Health</p>
                     </div>
                 </div>
             </div>
