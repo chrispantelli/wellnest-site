@@ -9,7 +9,7 @@ export default function How() {
                         <div>
                             <h6 className="heading-6 text-white pt-8 text-center">Step 01</h6>
                             <h4 className="heading-4 text-white text-center">Pick your test</h4>
-                            <p className="mt-4 paragraph-regular-medium text-white text-center">Some examples below of how others have done it. The layout/content will be the same just with our own spin.</p>
+                            <p className="mt-4 paragraph-regular-medium text-white text-center">Order your test online or through our app. You'll receive the collection kit through your letterbox within 48 hours.</p>
                         </div>
                     </div>
                     <div>

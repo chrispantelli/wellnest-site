@@ -1,6 +1,6 @@
 export default function Signup() {
     return (
-        <section className="bg-soft-mint relative">
+        <section className="bg-soft-mint relative" id="sign-up">
             <div className="container mx-auto py-20 px-4 sm:px-6 lg:px-8">
                 <div className="gap-28 items-center w-1/2 mx-auto">
                     <div className="bg-white rounded-2xl p-12 shadow-inner">

@@ -1,12 +1,19 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
     Bars3Icon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
+import useScrollBlock from '@/hooks/useScrollBlock';
 
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [blockScroll, allowScroll] = useScrollBlock();
 
+    useEffect(() => {
+        if(mobileMenuOpen) {
+            blockScroll()
+        }
+    }, [mobileMenuOpen])
     return (
         <>
             {mobileMenuOpen ? (
@@ -34,17 +41,17 @@ export default function Navbar() {
                         </header>
                         <div className='mt-24'>
                             <ul className="space-y-5 text-center">
-                                <li>
-                                    <a className='text-white text-4xl paragraph-regular-bold'>About</a>
+                                <li onClick={() => alert(1)}>
+                                    <a className='text-white text-4xl paragraph-regular-bold' href='#about'>About</a>
                                 </li>
                                 <li>
-                                    <a className='text-white text-4xl paragraph-regular-bold'>Features</a>
+                                    <a className='text-white text-4xl paragraph-regular-bold' href='#features'>Features</a>
                                 </li>
                                 <li>
-                                    <a className='text-white text-4xl paragraph-regular-bold'>Kits</a>
+                                    <a className='text-white text-4xl paragraph-regular-bold' href='#kits'>Kits</a>
                                 </li>
                                 <li>
-                                    <a className='text-white text-4xl paragraph-regular-bold'>Signup</a>
+                                    <a className='text-white text-4xl paragraph-regular-bold' href='#sign-up'>Signup</a>
                                 </li>
                                 <li>
                                     <a className='text-white text-4xl paragraph-regular-bold'>Download</a>
@@ -76,16 +83,16 @@ export default function Navbar() {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12 pt-3">
-                    <a href="#" className="paragraph-regular-bold text-secondary-blue">
+                    <a href="#about" className="paragraph-regular-bold text-secondary-blue">
                         About
                     </a>
-                    <a href="#" className="paragraph-regular-bold text-secondary-blue">
+                    <a href="#features" className="paragraph-regular-bold text-secondary-blue">
                         Features
                     </a>
-                    <a href="#" className="paragraph-regular-bold text-secondary-blue">
+                    <a href="#kits" className="paragraph-regular-bold text-secondary-blue">
                         Kits
                     </a>
-                    <a href="#" className="paragraph-regular-bold text-secondary-blue">
+                    <a href="#sign-up" className="paragraph-regular-bold text-secondary-blue">
                         Sign Up
                     </a>
                 </div>

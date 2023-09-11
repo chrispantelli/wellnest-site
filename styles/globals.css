@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 @layer components {
     .heading-1 {
         @apply font-bold text-6xl leading-tight;

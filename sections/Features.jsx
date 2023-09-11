@@ -4,7 +4,7 @@ import 'swiper/css';
 
 export default function Features() {
     return (
-        <section className="bg-primary-blue relative">
+        <section className="bg-primary-blue relative" id="features">
             <div className="container mx-auto py-44 px-4 sm:px-6 lg:px-8">
                 <div className="grid sm:grid-cols-3 gap-x-10">
                     <div>

@@ -1,6 +1,6 @@
 export default function Kits() {
     return (
-        <section className="bg-soft-blue relative">
+        <section className="bg-soft-blue relative" id="kits">
             <div className="container mx-auto py-20 px-4 sm:px-6 lg:px-8">
                 <div>
                     <h5 className="heading 5 text-dark-blue">Wellnest kits</h5>
