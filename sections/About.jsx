@@ -12,9 +12,7 @@ Today, we invite you to join our compassionate community and embark on a persona
 journey towards optimal well-being. Together, let us unlock your full potential, nurturing your
 mind, body, and soul every step of the way.</p>
                     </div>
-                    <div className="bg-white h-96 rounded-2xl">
-                            
-                    </div>
+                    <img src="lab.jpeg" className="rounded-2xl"/>
                 </div>
             </div>
             <img className="absolute right-0 -bottom-48 z-40" src="./patterns/sunshine.svg"/>
