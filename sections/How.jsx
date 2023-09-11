@@ -9,15 +9,15 @@ export default function How() {
                         <div>
                             <h6 className="heading-6 text-white pt-8 text-center">Step 01</h6>
                             <h4 className="heading-4 text-white text-center">Pick your test</h4>
-                            <p className="mt-4 paragraph-regular-medium text-white text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus</p>
+                            <p className="mt-4 paragraph-regular-medium text-white text-center">Some examples below of how others have done it. The layout/content will be the same just with our own spin.</p>
                         </div>
                     </div>
                     <div>
                     <img src="https://store.chronomics.com/cdn/shop/files/howitworks_2_180x.png?v=1653490750" className="mx-auto" />
                         <div>
                             <h6 className="heading-6 text-white pt-8 text-center">Step 02</h6>
-                            <h4 className="heading-4 text-white text-center">Pick your test</h4>
-                            <p className="mt-4 paragraph-regular-medium text-white text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus</p>
+                            <h4 className="heading-4 text-white text-center">Collect your sample</h4>
+                            <p className="mt-4 paragraph-regular-medium text-white text-center">Collect your sample and return it to our accredited lab using the prepaid envelope supplied.</p>
                         </div>
                     </div>
                     <div>
@@ -25,8 +25,9 @@ export default function How() {
 
                         <div>
                         <h6 className="heading-6 text-white pt-8 text-center">Step 03</h6>
-                        <h4 className="heading-4 text-white text-center">Pick your test</h4>
-                        <p className="mt-4 paragraph-regular-medium text-white text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus</p>
+                        <h4 className="heading-4 text-white text-center">Review your results</h4>
+                        <p className="mt-4 paragraph-regular-medium text-white text-center">Your results are uploaded to your secure online dashboard within 3-days of being received
+by the lab.</p>
                         </div>
                     </div>
                 </div>
