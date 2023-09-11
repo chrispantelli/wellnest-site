@@ -11,9 +11,15 @@ export default function Navbar() {
 
     useEffect(() => {
         if(mobileMenuOpen) {
-            blockScroll()
+            blockScroll();
         }
     }, [mobileMenuOpen])
+
+    const closeMobileMenu = () => {
+        setMobileMenuOpen(false);
+        allowScroll();
+    }
+
     return (
         <>
             {mobileMenuOpen ? (
@@ -40,8 +46,8 @@ export default function Navbar() {
                             </nav>
                         </header>
                         <div className='mt-24'>
-                            <ul className="space-y-5 text-center">
-                                <li onClick={() => alert(1)}>
+                            <ul className="space-y-5 text-center" onClick={() => closeMobileMenu()}>
+                                <li>
                                     <a className='text-white text-4xl paragraph-regular-bold' href='#about'>About</a>
                                 </li>
                                 <li>

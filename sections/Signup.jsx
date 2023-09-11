@@ -2,7 +2,7 @@ export default function Signup() {
     return (
         <section className="bg-soft-mint relative" id="sign-up">
             <div className="container mx-auto py-20 px-4 sm:px-6 lg:px-8">
-                <div className="gap-28 items-center w-1/2 mx-auto">
+                <div className="gap-28 items-center md:w-1/2 mx-auto">
                     <div className="bg-white rounded-2xl p-12 shadow-inner">
                         <h4 className="heading-4 text-dark-blue text-center">Register your interest</h4>
                         <p className="paragraph-large-semibold text-dark-blue text-center">and receive up to 25% off once we launch.</p>
